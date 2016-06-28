@@ -1,0 +1,30 @@
+{
+  "name": "migrate-npm-registry",
+  "version": "1.0.0",
+  "description": "Migrating to a new local npm server? Use npm-migrate to move all versions of one, some or all packages.",
+  "bin": {
+    "migrate-npm-registry": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "migrate",
+    "local",
+    "private"
+  ],
+  "author": "FINN.no AS <teamframsiekjerneteam@finn.no>",
+  "license": "MIT",
+  "repository": "https://github.com/finn-no/migrate-npm-registry",
+  "dependencies": {
+    "bluebird": "^2.7.1",
+    "request": "^2.51.0",
+    "tar": "^1.0.3",
+    "tar-stream": "^1.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "proxyquire": "^1.3.1"
+  }
+}
